@@ -28,3 +28,12 @@ variable "bucket_name" {
   description = "unical AWS S3 bucket name"
   default     = "mdv-terraform-bucket"
 }
+
+variable "server_type" {
+  default     = "Web-Server"
+}
+
+variable "owner" {
+  description = "owner"
+  default     = "MDV"
+}
