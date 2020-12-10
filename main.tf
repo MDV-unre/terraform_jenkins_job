@@ -21,8 +21,9 @@ resource "aws_instance" "default" {
   source_dest_check      = false
   instance_type          = var.instance_type
 
-  tags = {
-    Name = var.owner var.server_type
+  tags    = {
+    Name  = var.server_type
+    Owner = var.owner
   }
 }
 
