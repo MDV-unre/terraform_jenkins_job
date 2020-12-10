@@ -35,5 +35,5 @@ variable "server_type" {
 
 variable "owner" {
   description = "owner"
-  default     = "MDV"
+  default     = "MDV-devops"
 }
