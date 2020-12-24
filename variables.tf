@@ -20,7 +20,7 @@ variable "ami" {
   # Ubuntu 18.04
   #default = "ami-00ddb0e5626798373"
   # Amazon Linux
-  default = "ami-0c582118883b46f4f"
+  default = "ami-0be2609ba883822ec"
 }
 
 variable "region" {
