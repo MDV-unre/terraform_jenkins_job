@@ -1,6 +1,6 @@
 ## Jenkins-Terraform-Pipeline
 
-## Requirements
+##       Requirements
 
 * Terraform installed on Jenkins
 * Correct plugins installed on Jenkins
@@ -8,7 +8,7 @@
 * AWS credentials
 * S3 bucket
 
-## Plugins Required
+##       Plugins Required
 
 * [Workspace Cleanup Plugin](https://wiki.jenkins.io/display/JENKINS/Workspace+Cleanup+Plugin)
 * [Credentials Binding Plugin](https://wiki.jenkins.io/display/JENKINS/Credentials+Binding+Plugin)
