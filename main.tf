@@ -32,7 +32,7 @@ resource "aws_security_group" "default" {
   name = "terraform-default-sg"
 
   tags = {
-    Name  = "${var.server_type}s ecurity Group"
+    Name  = "${var.server_type}s Security Group"
     Owner = var.owner
   }
 
