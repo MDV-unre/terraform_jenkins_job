@@ -34,7 +34,7 @@ try {
         accessKeyVariable: 'AWS_ACCESS_KEY_ID',
         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
       ]]) {
-        ansiColor('css') {
+        ansiColor('gnome-terminal') {
           sh 'terraform plan'
         }
       }
@@ -52,7 +52,7 @@ try {
           accessKeyVariable: 'AWS_ACCESS_KEY_ID',
           secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
         ]]) {
-          ansiColor('css') {
+          ansiColor('gnome-terminal') {
             sh 'terraform apply -auto-approve'
           }
         }
@@ -68,7 +68,7 @@ try {
           accessKeyVariable: 'AWS_ACCESS_KEY_ID',
           secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
         ]]) {
-          ansiColor('css') {
+          ansiColor('gnome-terminal') {
             sh 'terraform show'
           }
         }
