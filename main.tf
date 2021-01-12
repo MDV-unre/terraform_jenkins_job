@@ -21,7 +21,7 @@ resource "aws_instance" "default" {
   source_dest_check      = false
   instance_type          = var.instance_type
 
-  tags    = {
+  tags = {
     Name  = var.server_type
     Owner = var.owner
   }
@@ -30,6 +30,11 @@ resource "aws_instance" "default" {
 # Create Security Group for EC2
 resource "aws_security_group" "default" {
   name = "terraform-default-sg"
+
+  tags = {
+    Name  = "${var.server_type}s ecurity Group"
+    Owner = var.owner
+  }
 
   ingress {
     from_port   = 80
