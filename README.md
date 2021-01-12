@@ -2,11 +2,11 @@
 
 ##       Requirements
 
-* Terraform installed on Jenkins
+* Terraform installed on Jenkins machine
 * Correct plugins installed on Jenkins
-* GitHub access token
-* AWS credentials
-* S3 bucket
+* GitHub access token for Jenkins
+* AWS credentials for Jenkins
+* S3 bucket (for terraform.tfstate)
 
 ##       Plugins Required
 
