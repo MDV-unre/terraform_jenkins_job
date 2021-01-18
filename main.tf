@@ -4,6 +4,8 @@ terraform {
     bucket = "mdv-terraform-state"
     key    = "global/terraform_jenkins_job/terraform.tfstate"
     region = "us-east-1"
+    dynamodb_table = "tfstate_locks"
+    encrypt = true
   }
 }
 
