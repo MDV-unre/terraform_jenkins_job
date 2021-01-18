@@ -2,7 +2,7 @@
 terraform {
   backend "s3" {
     bucket = "mdv-terraform-state"
-    key    = "terraform.tfstate"
+    key    = "global/terraform_jenkins_job/terraform.tfstate"
     region = "us-east-1"
   }
 }
